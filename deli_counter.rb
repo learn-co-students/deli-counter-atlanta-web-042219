@@ -18,7 +18,7 @@ def take_a_number(katz_deli, customer)
     katz_deli.push(customer)
     last_element = katz_deli.last 
     last_element_index = katz_deli.length 
-        puts "Welcome, #{last_element}. You are number #{last_element_index} in line."
+      puts "Welcome, #{last_element}. You are number #{last_element_index} in line."
   end 
 end
 
