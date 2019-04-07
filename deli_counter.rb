@@ -14,7 +14,7 @@ def line(arr)
 
     output = ""
     arr.each_with_index { |name, index| 
-    output. " #{index+1}. #{name}"
+    output = output + " #{index+1}. #{name}"
         puts "The line is currently:".chomp
     }
   end
