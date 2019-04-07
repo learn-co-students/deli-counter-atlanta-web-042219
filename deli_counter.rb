@@ -6,7 +6,7 @@ def line(arr)
     puts "The line is currently empty."
     return
   else
-    arr.each_with_index 
+    arr.each_with_index { |name,index|
     puts "The line is currently: "
   end
 end
