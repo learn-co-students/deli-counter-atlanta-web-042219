@@ -2,6 +2,7 @@ require 'pry'
 # Write your code here.
 def take_a_number(arr, name)
   arr << name
+  puts "Welcome, #{name}. You are number #{arr.size} in line."
 
 
 def line(arr)
