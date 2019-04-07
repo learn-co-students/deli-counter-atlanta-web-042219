@@ -20,6 +20,6 @@ def line(arr)
 end
 
 def now_serving(arr)
-  puts "Currently serving #{arr.pop}."
+  puts "Currently serving #{arr.shift}."
   arr
 end
