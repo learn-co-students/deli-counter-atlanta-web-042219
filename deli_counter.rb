@@ -11,7 +11,6 @@ def line(arr)
   if arr == []
     puts "The line is currently empty."
   else
-
     output = ""
     arr.each_with_index { |name, index| 
       output = output + " #{index+1}. #{name}"
