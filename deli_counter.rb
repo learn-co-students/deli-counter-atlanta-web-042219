@@ -20,6 +20,10 @@ def line(arr)
 end
 
 def now_serving(arr)
-  puts "Currently serving #{arr.shift}."
+  if arr == []
+    puts "The line is currently empty."
+  else
+    puts "Currently serving #{arr.shift}."
+  end
   arr
 end
