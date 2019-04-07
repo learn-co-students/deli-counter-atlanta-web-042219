@@ -7,7 +7,7 @@ def line(arr)
     return
   else
     puts "the line is currently:"
-    arr.each_with_index { |name, index| {
+    arr.each_with_index { |name, index| 
     puts " #{index+1}. #{name}"
     }
   end
