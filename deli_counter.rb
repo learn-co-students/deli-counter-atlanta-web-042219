@@ -15,6 +15,7 @@ def line(arr)
     arr.each_with_index { |name, index| 
       output = output + " #{index+1}. #{name}"
     }
+    puts "The line is currently: #{output}"
   end
 end
 
