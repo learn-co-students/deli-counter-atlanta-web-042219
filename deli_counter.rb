@@ -8,7 +8,7 @@ def line(arr)
   else
     puts "the line is currently:"
     arr.each_with_index { |name, index| {
-    puts " #{index+1}. #{name} "
+    puts " #{index+1}. #{name}"
     }
   end
 end
