@@ -13,7 +13,9 @@ def line(arr)
     return
   else
     puts "The line is currently:"
+    
     binding.pry
+    
     arr.each_with_index { |name, index| 
     puts " #{index+1}. #{name}"
     }
