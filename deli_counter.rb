@@ -1,5 +1,9 @@
 require 'pry'
 # Write your code here.
+def take_a_number(arr, name)
+  arr << name
+
+
 def line(arr)
 
   if arr == []
@@ -12,3 +16,4 @@ def line(arr)
     }
   end
 end
+
