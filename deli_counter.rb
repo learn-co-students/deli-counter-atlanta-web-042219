@@ -11,10 +11,11 @@ def line(arr)
   if arr == []
     puts "The line is currently empty."
   else
-    puts "The line is currently:".chomp
-    
+
+    output = ""
     arr.each_with_index { |name, index| 
-    puts " #{index+1}. #{name}"
+    output. " #{index+1}. #{name}"
+        puts "The line is currently:".chomp
     }
   end
 end
