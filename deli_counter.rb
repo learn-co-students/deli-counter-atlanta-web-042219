@@ -3,7 +3,8 @@ require 'pry'
 def line(arr)
  binding.pry
   if arr == []
-    return "The line is currently empty."
+    puts "The line is currently empty."
+    return
   else
     puts "arr"
   end
